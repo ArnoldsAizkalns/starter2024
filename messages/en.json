@@ -1,5 +1,40 @@
 {
-    
-      "title": "Hello world!"
-    
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, lv {Latvian} ru {Russian} en {English} other {Unknown}}"
+  },
+  "IndexPage": {
+    "title": "Test title",
+    "description": "Test describtion"
+  },
+  "LocaleLayout": {
+    "title": "next-intl example"
+  },
+  "Navigation": {
+    "home": "Home",
+    "pathnames": "Pathnames"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "title": "Test link",
+        "description": "Test describtion",
+        "href": "/"
+      },
+      "source": {
+        "title": "Test link 2",
+        "description": "Test describtion",
+        "href": "/"
+      }
+    }
+  },
+  "Footer": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "privacyPolicy": "Privacy Policy",
+    "termsAndConditions": "Terms and Conditions",
+    "allRightsReserved": "All rights reserved",
+    "designedIn": "Designed in Riga, Latvia"
   }
+}

@@ -1,5 +1,40 @@
 {
-   
-      "title": "Привет, мир!"
-    
+  "LocaleSwitcher": {
+    "label": "Изменить язык",
+    "locale": "{locale, select, lv {Латышский} ru {Русский} en {Английский} other {Неизвестно}}"
+  },
+  "IndexPage": {
+    "title": "Тестовый заголовок",
+    "description": "Тестовое описание"
+  },
+  "LocaleLayout": {
+    "title": "Пример next-intl"
+  },
+  "Navigation": {
+    "home": "Главная",
+    "pathnames": "Пути"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "title": "Тестовая ссылка",
+        "description": "Тестовое описание",
+        "href": "/"
+      },
+      "source": {
+        "title": "Тестовая ссылка 2",
+        "description": "Тестовое описание",
+        "href": "/"
+      }
+    }
+  },
+  "Footer": {
+    "home": "Главная",
+    "about": "О нас",
+    "contact": "Контакты",
+    "privacyPolicy": "Политика конфиденциальности",
+    "termsAndConditions": "Условия использования",
+    "allRightsReserved": "Все права защищены",
+    "designedIn": "Разработано в Риге, Латвия"
   }
+}

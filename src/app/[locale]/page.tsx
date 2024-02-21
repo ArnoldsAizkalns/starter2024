@@ -1,13 +1,26 @@
-import { useTranslations } from 'next-intl';
+import { useTranslations } from 'next-intl'
+import { unstable_setRequestLocale } from 'next-intl/server'
+import PageLayout from '../../components/PageLayout'
 
-export default function Home() {
-  const t = useTranslations();
+type Props = {
+  params: { locale: string }
+}
+
+export default function IndexPage({ params: { locale } }: Props) {
+  // Enable static rendering
+  unstable_setRequestLocale(locale)
+
+  const t = useTranslations('IndexPage')
 
   return (
-    <main>
-      <div>
-        <h1>{t('title')}</h1>
-      </div>
-    </main>
-  );
+    <PageLayout title={t('title')}>
+      <p className="max-w-[590px]">
+        {t.rich('description', {
+          code: (chunks) => (
+            <code className="font-mono text-white">{chunks}</code>
+          ),
+        })}
+      </p>
+    </PageLayout>
+  )
 }

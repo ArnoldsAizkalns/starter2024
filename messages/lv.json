@@ -1,5 +1,40 @@
 {
-    
-      "title": "Čau, pasaule!"
-    
+  "LocaleSwitcher": {
+    "label": "Mainīt valodu",
+    "locale": "{locale, select, lv {Latviešu} ru {Krievu} en {Angļu} other {Nezināms}}"
+  },
+  "IndexPage": {
+    "title": "Testa nosaukums",
+    "description": "Testa apraksts"
+  },
+  "LocaleLayout": {
+    "title": "next-intl piemērs"
+  },
+  "Navigation": {
+    "home": "Sākums",
+    "pathnames": "Ceļi"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "title": "Testa saite",
+        "description": "Testa apraksts",
+        "href": "/"
+      },
+      "source": {
+        "title": "Testa saite 2",
+        "description": "Testa apraksts",
+        "href": "/"
+      }
+    }
+  },
+  "Footer": {
+    "home": "Mājas",
+    "about": "Par mums",
+    "contact": "Kontakti",
+    "privacyPolicy": "Konfidencialitātes politika",
+    "termsAndConditions": "Lietošanas noteikumi",
+    "allRightsReserved": "Visas tiesības aizsargātas",
+    "designedIn": "Izstrādāts Rīgā, Latvijā"
   }
+}
