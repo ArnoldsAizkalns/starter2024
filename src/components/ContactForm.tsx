@@ -21,7 +21,7 @@ const ContactForm = () => {
   }
 
   return (
-    <div className="container mx-auto py-10">
+    <div className="container px-4 mx-auto py-10">
       <form
         onSubmit={handleSubmit(onSubmit)}
         className="w-full max-w-md mx-auto"

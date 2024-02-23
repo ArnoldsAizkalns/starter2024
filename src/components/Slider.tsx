@@ -26,7 +26,7 @@ export default class CarouselComponent extends React.Component<
   constructor(props: CarouselProps) {
     super(props)
     this.state = {
-      visibleSlides: 3.5,
+      visibleSlides: 4,
     }
   }
 
@@ -44,13 +44,13 @@ export default class CarouselComponent extends React.Component<
     let visibleSlides = 2.5
 
     if (width < 768) {
-      visibleSlides = 1.5
+      visibleSlides = 1.2
     } else if (width < 1024) {
-      visibleSlides = 1
+      visibleSlides = 1.7
     } else if (width < 1280) {
-      visibleSlides = 1.5
-    } else if (width < 1530) {
       visibleSlides = 2
+    } else if (width < 1530) {
+      visibleSlides = 2.2
     }
 
     this.setState({ visibleSlides })
@@ -61,21 +61,21 @@ export default class CarouselComponent extends React.Component<
 
     return (
       <div>
-        <div className={'hidden md:block'}>
+        <div className={''}>
           <CarouselProvider
-            naturalSlideWidth={300}
-            naturalSlideHeight={130}
+            naturalSlideWidth={280}
+            naturalSlideHeight={140}
             totalSlides={5}
             infinite={true}
             visibleSlides={visibleSlides}
-            currentSlide={0.3}
-            className="pb-20 pt-20"
+            currentSlide={0.4}
+            className="pb-10 pt-20"
             isPlaying={true}
             interval={3500}
           >
             <Slider>
               <Slide index={0}>
-                <div className="w-[200px] mx-auto ">
+                <div className="sm:w-[120px] md:w-[140px] lg:w-[170px] xl:w-[200px] w-[100px] mx-auto ">
                   <Image
                     className="w-full h-full object-cover"
                     src={first}
@@ -84,7 +84,7 @@ export default class CarouselComponent extends React.Component<
                 </div>
               </Slide>
               <Slide index={1}>
-                <div className="w-[200px] mx-auto">
+                <div className="md:w-[140px] sm:w-[120px] lg:w-[170px] xl:w-[200px] w-[100px] mx-auto">
                   <Image
                     className="w-full h-full object-cover"
                     src={second}
@@ -93,7 +93,7 @@ export default class CarouselComponent extends React.Component<
                 </div>
               </Slide>
               <Slide index={2}>
-                <div className="w-[200px] mx-auto">
+                <div className="md:w-[140px] sm:w-[120px] lg:w-[170px] xl:w-[200px] w-[100px] mx-auto">
                   <Image
                     className="w-full h-full object-cover"
                     alt=""
@@ -102,12 +102,12 @@ export default class CarouselComponent extends React.Component<
                 </div>
               </Slide>
               <Slide index={3}>
-                <div className="w-[200px] mx-auto">
+                <div className="md:w-[140px] sm:w-[120px] lg:w-[170px] xl:w-[200px] w-[100px] mx-auto">
                   <Image className="" alt="" src={a4th}></Image>
                 </div>
               </Slide>
               <Slide index={4}>
-                <div className="w-[200px] mx-auto">
+                <div className="md:w-[140px] sm:w-[120px] lg:w-[170px] xl:w-[200px] w-[100px] mx-auto">
                   <Image
                     className="w-full h-full object-cover"
                     alt=""
@@ -117,9 +117,6 @@ export default class CarouselComponent extends React.Component<
               </Slide>
             </Slider>
           </CarouselProvider>
-        </div>
-        <div className={'px-5 md:hidden pb-10'}>
-          <Image alt="/" src={second} />
         </div>
       </div>
     )

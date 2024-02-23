@@ -15,7 +15,7 @@ export default function Navigation() {
   ]
 
   return (
-    <nav className="sticky top-0 left-0 right-0 z-10 bg-white p-4 lg:px-6">
+    <nav className="sticky bg-white p-4 lg:px-6">
       <div className="container mx-auto flex items-center justify-between">
         <div className="block flex-none md:hidden">
           <Mobile />
