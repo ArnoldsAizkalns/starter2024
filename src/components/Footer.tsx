@@ -17,7 +17,7 @@ export default function Footer() {
   return (
     <footer className="text-sm text-neutral-500 dark:text-neutral-400">
       <div className="w-full md:mx-0 gap-6 border-t border-neutral-400 text-sm">
-        <div className="container  mx-auto">
+        <div className="container px-4 md:px-0  mx-auto">
           <ul className="flex flex-col py-6 space-y-2 md:space-y-2 md:text-gray-600 md:font-medium">
             {navigation.map((item, idx) => (
               <li key={idx} className="duration-150 hover:text-gray-900">
