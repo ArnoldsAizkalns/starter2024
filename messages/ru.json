@@ -1,11 +1,7 @@
 {
   "LocaleSwitcher": {
-    "label": "Изменить язык",
-    "locale": "{locale, select, lv {Латышский} ru {Русский} en {Английский} other {Неизвестно}}"
-  },
-  "IndexPage": {
-    "title": "Тестовый заголовок",
-    "description": "Тестовое описание"
+    "label": "Сменить язык",
+    "locale": "{locale, select, lv {Латышский} ru {Русский} en {Английский} other {Неизвестный}}"
   },
   "LocaleLayout": {
     "title": "Пример next-intl"
@@ -14,7 +10,9 @@
     "home": "Главная",
     "pathnames": "Пути"
   },
-  "PageLayout": {
+  "IndexPage": {
+    "title": "Тестовый заголовок",
+    "description": "Тестовое описание",
     "links": {
       "docs": {
         "title": "Тестовая ссылка",
@@ -36,5 +34,22 @@
     "termsAndConditions": "Условия использования",
     "allRightsReserved": "Все права защищены",
     "designedIn": "Разработано в Риге, Латвия"
+  },
+  "ContactForm": {
+    "name_label": "Имя и Фамилия",
+    "name_placeholder": "Введите ваше имя и фамилию",
+    "email_label": "Адрес электронной почты",
+    "email_placeholder": "Введите ваш адрес электронной почты",
+    "phone_label": "Телефон",
+    "phone_placeholder": "Введите ваш номер телефона",
+    "message_label": "Сообщение",
+    "message_placeholder": "Введите ваше сообщение",
+    "submit_button": "Отправить"
+  },
+  "AboutPage": {
+    "title": "Тестовый заголовок"
+  },
+  "ContactPage": {
+    "title": "Тестовый заголовок"
   }
 }

@@ -1,9 +1,15 @@
-import React from 'react'
+import { useTranslations } from 'next-intl'
+import PageLayout from '@/components/PageLayout'
+import ExternalLink from '@/components/ExternalLink'
+import Slider from '@/components/Slider'
+import ContactForm from '@/components/ContactForm'
 
-type Props = {}
+export default function ContactPage() {
+  const t = useTranslations('ContactPage')
 
-const Contact = (props: Props) => {
-  return <div>Contact</div>
+  return (
+    <PageLayout title={t('title')}>
+      <ContactForm />
+    </PageLayout>
+  )
 }
-
-export default Contact

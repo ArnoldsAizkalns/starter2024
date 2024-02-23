@@ -1,9 +1,8 @@
-import React from 'react'
+import { useTranslations } from 'next-intl'
+import PageLayout from '@/components/PageLayout'
 
-type Props = {}
+export default function AboutPage() {
+  const t = useTranslations('AboutPage')
 
-const About = (props: Props) => {
-  return <div>About</div>
+  return <PageLayout title={t('title')}></PageLayout>
 }
-
-export default About

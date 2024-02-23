@@ -2,10 +2,9 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import { notFound } from 'next/navigation'
-import Navigation from '@/components/Navigation'
 import { NextIntlClientProvider } from 'next-intl'
 import messages from '../../../messages/en.json'
-import Footer from '@/components/Footer'
+import { unstable_setRequestLocale } from 'next-intl/server'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -26,15 +25,12 @@ export default function RootLayout({
   if (!locales.includes(locale as any)) {
     notFound()
   }
+  unstable_setRequestLocale(locale)
 
   return (
     <NextIntlClientProvider messages={messages}>
       <html lang={locale}>
-        <body className={inter.className}>
-          <Navigation />
-          {children}
-          <Footer />
-        </body>
+        <body className={inter.className}>{children}</body>
       </html>
     </NextIntlClientProvider>
   )

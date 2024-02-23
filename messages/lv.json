@@ -3,18 +3,16 @@
     "label": "Mainīt valodu",
     "locale": "{locale, select, lv {Latviešu} ru {Krievu} en {Angļu} other {Nezināms}}"
   },
-  "IndexPage": {
-    "title": "Testa nosaukums",
-    "description": "Testa apraksts"
-  },
   "LocaleLayout": {
     "title": "next-intl piemērs"
   },
   "Navigation": {
-    "home": "Sākums",
+    "home": "Mājas",
     "pathnames": "Ceļi"
   },
-  "PageLayout": {
+  "IndexPage": {
+    "title": "Testa nosaukums",
+    "description": "Testa apraksts",
     "links": {
       "docs": {
         "title": "Testa saite",
@@ -33,8 +31,25 @@
     "about": "Par mums",
     "contact": "Kontakti",
     "privacyPolicy": "Konfidencialitātes politika",
-    "termsAndConditions": "Lietošanas noteikumi",
+    "termsAndConditions": "Noteikumi un nosacījumi",
     "allRightsReserved": "Visas tiesības aizsargātas",
     "designedIn": "Izstrādāts Rīgā, Latvijā"
+  },
+  "ContactForm": {
+    "name_label": "Vārds un uzvārds",
+    "name_placeholder": "Ievadiet savu vārdu un uzvārdu",
+    "email_label": "E-pasta adrese",
+    "email_placeholder": "Ievadiet savu e-pasta adresi",
+    "phone_label": "Telefons",
+    "phone_placeholder": "Ievadiet savu telefona numuru",
+    "message_label": "Ziņa",
+    "message_placeholder": "Ierakstiet savu ziņu",
+    "submit_button": "Nosūtīt"
+  },
+  "AboutPage": {
+    "title": "Testa nosaukums"
+  },
+  "ContactPage": {
+    "title": "Testa nosaukums"
   }
 }

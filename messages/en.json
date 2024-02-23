@@ -3,10 +3,6 @@
     "label": "Change language",
     "locale": "{locale, select, lv {Latvian} ru {Russian} en {English} other {Unknown}}"
   },
-  "IndexPage": {
-    "title": "Test title",
-    "description": "Test describtion"
-  },
   "LocaleLayout": {
     "title": "next-intl example"
   },
@@ -14,7 +10,9 @@
     "home": "Home",
     "pathnames": "Pathnames"
   },
-  "PageLayout": {
+  "IndexPage": {
+    "title": "Test title",
+    "description": "Test describtion",
     "links": {
       "docs": {
         "title": "Test link",
@@ -36,5 +34,22 @@
     "termsAndConditions": "Terms and Conditions",
     "allRightsReserved": "All rights reserved",
     "designedIn": "Designed in Riga, Latvia"
+  },
+  "ContactForm": {
+    "name_label": "Name and Surname",
+    "name_placeholder": "Enter your name and surname",
+    "email_label": "Email Address",
+    "email_placeholder": "Enter your email address",
+    "phone_label": "Phone",
+    "phone_placeholder": "Enter your phone number",
+    "message_label": "Message",
+    "message_placeholder": "Type your message",
+    "submit_button": "Submit"
+  },
+  "AboutPage": {
+    "title": "Test title"
+  },
+  "ContactPage": {
+    "title": "Test title"
   }
 }
