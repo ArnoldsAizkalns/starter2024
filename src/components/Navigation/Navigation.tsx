@@ -4,12 +4,14 @@ import Image from 'next/image'
 import Mobile from './Mobile'
 import LocaleSwitcher from '../LocaleSwitcher'
 import logo from '../../../public/test.png'
+import { useTranslations } from 'next-intl'
+export default function Navigation() {
+  const t = useTranslations('Navigation')
 
-export default function Navbar() {
   const menu = [
-    { title: 'Home', path: '/' },
-    { title: 'About', path: '/about' },
-    { title: 'Contact', path: '/contact' },
+    { title: t('home'), path: '/' },
+    { title: t('about'), path: '/about' },
+    { title: t('contact'), path: '/contact' },
   ]
 
   return (

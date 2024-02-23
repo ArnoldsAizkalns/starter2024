@@ -8,7 +8,8 @@
   },
   "Navigation": {
     "home": "Главная",
-    "pathnames": "Пути"
+    "about": "О нас",
+    "contact": "Контакты"
   },
   "IndexPage": {
     "title": "Тестовый заголовок",
@@ -47,7 +48,9 @@
     "submit_button": "Отправить"
   },
   "AboutPage": {
-    "title": "Тестовый заголовок"
+    "image_alt": "About Image",
+    "heading": "О нас",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   "ContactPage": {
     "title": "Тестовый заголовок"

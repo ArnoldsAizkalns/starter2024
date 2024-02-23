@@ -8,7 +8,8 @@
   },
   "Navigation": {
     "home": "Home",
-    "pathnames": "Pathnames"
+    "about": "About",
+    "contact": "Contact"
   },
   "IndexPage": {
     "title": "Test title",
@@ -47,7 +48,9 @@
     "submit_button": "Submit"
   },
   "AboutPage": {
-    "title": "Test title"
+    "image_alt": "About Image",
+    "heading": "About Us",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   "ContactPage": {
     "title": "Test title"

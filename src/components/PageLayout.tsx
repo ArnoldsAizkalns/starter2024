@@ -5,10 +5,9 @@ import Footer from './Footer'
 
 type Props = {
   children?: ReactNode
-  title: ReactNode
 }
 
-export default function PageLayout({ children, title }: Props) {
+export default function PageLayout({ children }: Props) {
   const t = useTranslations('')
 
   return (
@@ -17,7 +16,6 @@ export default function PageLayout({ children, title }: Props) {
         <Navigation />
       </header>
       <main>
-        <h1>{title}</h1>
         {children}
       </main>
       <footer>

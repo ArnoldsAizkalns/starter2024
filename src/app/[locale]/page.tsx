@@ -7,7 +7,7 @@ export default function IndexPage() {
   const t = useTranslations('IndexPage')
 
   return (
-    <PageLayout title={t('title')}>
+    <PageLayout>
       <div className="relative flex grow flex-col bg-slate-850 py-36">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute left-0 top-1 h-[20500px] w-[20500px] translate-x-[-44.5%] rounded-full bg-gradient-to-b from-slate-900 via-cyan-500" />
